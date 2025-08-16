@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VCL Lab.</title>
+    <link>https://hikimece.github.io/vcl/</link>
+    <description>Recent content on VCL Lab.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sat, 21 Dec 2024 16:27:51 +0900</lastBuildDate><atom:link href="https://hikimece.github.io/vcl/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Pattern Recognition Accepted</title>
+      <link>https://hikimece.github.io/vcl/news/2024-12-14-first-news/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hikimece.github.io/vcl/news/2024-12-14-first-news/</guid>
+      <description>&lt;p&gt;We are thrilled to announce that our paper on Pattern Recognition has been accepted at a major conference.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hikimece.github.io/vcl/people/hikim/</link>
+      <pubDate>Wed, 11 Dec 2024 15:21:24 +0900</pubDate>
+      
+      <guid>https://hikimece.github.io/vcl/people/hikim/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;&lt;span style=&#34;color: #B75584; font-weight: bold;&#34;&gt;Principal Investigator&lt;/span&gt; 
+    &lt;div id=&#34;span-stylecolor-b75584-font-weight-boldprincipal-investigatorspan&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#span-stylecolor-b75584-font-weight-boldprincipal-investigatorspan&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div style=&#34;display: flex; align-items: center; margin-bottom: 20px;&#34;&gt;
+    &lt;!-- 좌측 프로필 사진 --&gt;
+    &lt;img src=&#34;https://hikimece.github.io/vcl/vcl/images/prof_free.png&#34; alt=&#34;Hyung-Il Kim&#34; 
+         style=&#34;border-radius: 50%; width: 120px; height: 120px; margin-right: 15px;&#34;&gt;
+    &lt;div&gt;
+        &lt;h4 style=&#34;font-size: 18px; margin: 0;&#34;&gt;
+            Hyung-Il Kim, &lt;span style=&#34;font-size: 75%;&#34;&gt;Ph.D.&lt;/span&gt; 
+            &lt;a href=&#34;https://hikimece.github.io/vcl/people/hikim/&#34; target=&#34;_blank&#34; style=&#34;margin-left: 5px; color: blue; text-decoration: none;&#34;&gt;
+                &lt;i class=&#34;fa fa-home&#34;&gt;&lt;/i&gt;
+            &lt;/a&gt;
+            &lt;a href=&#34;https://scholar.google.com/citations?user=3belJDEAAAAJ&amp;hl=ko&#34; target=&#34;_blank&#34; 
+               style=&#34;margin-left: 5px; color: blue; text-decoration: none;&#34;&gt;
+                &lt;i class=&#34;fa-brands fa-google-scholar&#34;&gt;&lt;/i&gt;
+            &lt;/a&gt;
+        &lt;/h4&gt;
+        &lt;h6 style=&#34;font-size: 14px; margin: 2px 0; color: gray;&#34;&gt;
+          Assistant Professor, School of ECE, Chonnam National University&lt;/h6&gt;
+        &lt;h6 style=&#34;font-size: 12px; margin: 2px 0;&#34;&gt;
+          &lt;strong&gt;Email:&lt;/strong&gt; hyungil.kim [at] jnu.ac.kr | &lt;strong&gt;Office:&lt;/strong&gt; Engineering Building #6-717   
+        &lt;/h6&gt;
+        &lt;h6 style=&#34;font-size: 12px; margin: 2px 0;&#34;&gt;[&lt;a href=&#34;https://scholar.google.com/citations?user=3belJDEAAAAJ&amp;hl=en&#34; style=&#34;text-decoration: none; color: #007bff;&#34;&gt;&lt;u&gt;Google Scholar&lt;/u&gt;&lt;/a&gt;] [&lt;a href=&#34;https://orcid.org/0000-0001-6425-549X&#34; style=&#34;text-decoration: none; color: #007bff;&#34;&gt;&lt;u&gt;ORCID&lt;/u&gt;&lt;/a&gt;] [&lt;a href=&#34;https://www.linkedin.com/in/hyung-il-kim-258168224/&#34; style=&#34;text-decoration: none; color: #007bff;&#34;&gt;&lt;u&gt;LinkedIn&lt;/u&gt;&lt;/a&gt;] [&lt;a href=&#34;https://eceng.jnu.ac.kr/eceng/index.do&#34; style=&#34;text-decoration: none; color: #007bff;&#34;&gt;&lt;u&gt;School of ECE&lt;/u&gt;&lt;/a&gt;]&lt;/h6&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;table style=&#34;width: 180%; border-collapse: collapse;&#34;&gt;
+  &lt;tr&gt;
+    &lt;td style=&#34;width: 70%; vertical-align: top;&#34;&gt;
+      &lt;!-- Experiences --&gt;
+      &lt;strong&gt;Experiences&lt;/strong&gt;&lt;br/&gt;
+      - Assistant Professor, School of ECE, Chonnam National University &lt;br/&gt;
+      - Senior Researcher, Visual Intelligence Research Section, ETRI&lt;br/&gt;
+      - Researcher, The 8th Research Division, Agency for Defense Development (ADD)&lt;br/&gt;
+      - Research Assistant, Image and Video Systems Lab, KAIST&lt;br/&gt;
+      - Research Internship, Home Entertainment (HE) Company, LG Electronics&lt;br/&gt;&lt;br/&gt;
+      &lt;!-- Education --&gt;
+      &lt;strong&gt;Education&lt;/strong&gt;&lt;br/&gt;
+      - Ph.D., Electrical Engineering, KAIST (Advisor: Prof. Yong Man Ro)&lt;br/&gt;
+      - M.S., Electrical Engineering, KAIST (Advisor: Prof. Yong Man Ro)&lt;br/&gt;
+      - B.S., Semiconductor Science, Dongguk University (&lt;i&gt;Summa Cum Laude&lt;/i&gt;)&lt;br/&gt;
+      &lt;br/&gt;
+      &lt;!-- Academic Service --&gt;
+      &lt;strong&gt;Academic Service&lt;/strong&gt;&lt;br/&gt;
+      - Reviewer for Journals: TIP, TCSVT, TBIOM, TMM, TKDE, Neural Networks, PRL&lt;br/&gt;
+      - Reviewer for Conference Papers: CVPR, ECCV, ICCV, AAAI, ACCV, BMVC, WACV, ICIP, BigMM&lt;br/&gt;
+      - Program committee for IEEE International Conference on Multimedia BigData (BigMM) 2017 &lt;br/&gt;
+      - Program committee for ICIP Workshop on Integrating Image Processing with Large-Scale VLMs 2024/2025 &lt;br/&gt;
+      - Patent review committee for Superintelligence Creative Lab, ETRI &lt;br/&gt;
+      &lt;!-- Awards --&gt;
+      &lt;strong&gt;Awards &amp; Honors&lt;/strong&gt;&lt;br/&gt;
+      - National R&amp;D Excellence Top 100 by the MSIT and KISTEP (2021/2023)&lt;br/&gt;
+      - Grand Prize for ETRI Representative Research Project (DeepView) Award (2020)&lt;br/&gt;
+      - Award for Ph.D. Research Achievement from School of EE, KAIST (2016/2017)&lt;br/&gt;
+      - Korean Government Scholarship, KAIST (2013-2016)&lt;br/&gt;
+      - Paper Award &#34;Local Feature Learning using DCCA for NIR-VIS Heterogeneous FR&#34; by KMMS (2015)&lt;br/&gt;
+      - Paper Award &#34;Action Unit Based Facial Features for Subject-Independent FER&#34; by KIPS (2015)&lt;br/&gt;
+      - Paper Award &#34;X-ray Absorptiometry Image Enhancement using Sparse Representation&#34; by KMMS (2012)&lt;br/&gt;
+      - Award for Honor Students from Dongguk University (2006/2007/2010/2011)&lt;br/&gt;&lt;br/&gt;
+      &lt;!-- Talk --&gt;
+      &lt;strong&gt;Talk&lt;/strong&gt;&lt;br/&gt;
+      - Recurrent Neural Networks @ HPC Lab, ETRI&lt;br/&gt;
+      - Face Recognition Technology and Applications @ KIEI&lt;br/&gt;
+      - Deep Learning-based Face Recognition Algorithms @ AI Research Lab, ADD&lt;br/&gt;
+      - Advanced Applications of Visual Intelligence @ AI Academy, ETRI &lt;br/&gt;
+      - Deep Learning-based Face Recognition System @ Dankook University&lt;br/&gt;
+      - AI Use Cases and Development Practices @ Hansusng University&lt;br/&gt;
+      - Advances in Recent Computer Vision Algorithms @ Chonnam National University&lt;br/&gt;&lt;br/&gt;
+      &lt;strong&gt;Teaching&lt;/strong&gt;&lt;br/&gt;
+      - ECE9048 Linux Systems and Lab (SP&#39;25)&lt;br/&gt;
+      - CLT0771 Career Planning and Self-understanding (SP&#39;25)&lt;br/&gt; 
+      - Teaching Assistant for EE474 Introduction to Multimedia @ KAIST&lt;br/&gt;
+      - Teaching Assistant for EE636 Digital Video Processing @ KAIST&lt;br/&gt;
+      - Teaching Assistant for EE209 Programming Structures for EE @ KAIST&lt;br/&gt;
+      - Teaching Assistant for EE505 Electronics Design Lab @ KAIST&lt;br/&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
