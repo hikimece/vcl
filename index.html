@@ -399,34 +399,29 @@
     <article class="max-w-full prose dark:prose-invert">
   
   <section><style>
-html, body {
-  margin: 0;   /* 기본 여백 제거 */
-  padding: 0;  /* 기본 여백 제거 */
-}
+  /* 전체 컨테이너를 고정된 크기로 설정 */
+  .content-container {
+    max-width: 1200px; /* 전체 레이아웃 최대 크기 */
+    margin: 0 auto; /* 가운데 정렬 */
+  }
 
-.content-container {
-  max-width: 1200px;
-  margin: 0 auto;     /* 가운데 정렬 */
-  padding: 0 8px;     /* 모바일에서 아주 작은 여백만 */
-  box-sizing: border-box;
-}
+  /* 글자 크기 고정 */
+  .content-container div, .content-container p, .content-container table {
+    font-size: 16px; /* px 또는 rem 단위로 고정 */
+  }
 
-.content-container div,
-.content-container p,
-.content-container table {
-  font-size: 16px;
-}
+  /* 테이블 크기 고정 */
+  .content-container table {
+    width: 1200px; /* 고정 너비 설정 */
+    max-width: 1200px; /* 최대 크기 설정 */
+  }
 
-.content-container table {
-  width: 100%;        /* 모바일 화면에 꽉 차도록 */
-  max-width: 1200px;
-}
-
-.content-container img {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-}
+  /* 이미지 크기 고정 */
+  .content-container img {
+    width: 100%; /* 부모 컨테이너에 맞춤 */
+    max-width: 1200px; /* 최대 크기 제한 */
+    height: auto; /* 비율 유지 */
+  }
 </style>
 <p></br><br/></p>
 <div style="text-align: center; margin-bottom: 11px;">
