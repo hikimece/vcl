@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECE9048 Linux Systems and Lab on VCL Lab.</title>
+    <link>https://hikimece.github.io/vcl/courses/ece9048/</link>
+    <description>Recent content in ECE9048 Linux Systems and Lab on VCL Lab.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Sat, 21 Dec 2024 16:27:34 +0900</lastBuildDate><atom:link href="https://hikimece.github.io/vcl/courses/ece9048/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
