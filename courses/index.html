@@ -71,14 +71,30 @@
   <meta property="og:url" content="https://hikimece.github.io/vcl/courses/">
   <meta property="og:site_name" content="VCL Lab">
   <meta property="og:title" content="VCL Lab">
-  <meta property="og:description" content="Current Courses (Spring, 2026) # CLT0771 Career Planning and Self-Understanding CIS1010 C Programming and Practice ECE4037 Digital Image Processing ECE4086 Computer Engineering Capstone Design 2 Previous Courses # CLT0771 Career Planning and Self-Understanding (SP&#39;25) ECE9048 Linux Systems and Lab (SP&#39;25) SAI0030 Python Programming and Lab (FA&#39;25) ECE3088 Embedded Software (FA&#39;25) ECE3087 Computer Engineering Capstone Design 1 (FA&#39;25) GR25624 Advanced Machine Learning/Deep Learning (FA&#39;25)">
+  <meta property="og:description" content="Courses # CLT0771 Career Planning &amp; Self-understanding Undergraduate Course [Syllabus] [Webpage] SAI0030 Python Programming &amp; Practice Undergraduate Course [Syllabus] [Webpage] ECE9048 Linux Systems &amp; Practice Undergraduate Course [Syllabus] [Webpage] CIS0010 C Programming &amp; Practice Undergraduate Course [Syllabus] [Webpage] ECE3088 Embedded Software Undergraduate Course [Syllabus] [Webpage] AIC0023 Deep Learning Undergraduate Course [Syllabus] [Webpage] ECE4037 Digital Image Processing Undergraduate Course [Syllabus] [Webpage] ECE3087, ECE4084, ECE4085, ECE4086 Capstone Design Undergraduate Course [Syllabus] [Webpage] GR08322 Computer Vision Graduate Course [Syllabus] [Webpage] GR25624 Advanced Machine Learning &amp; Deep Learning Graduate Course [Syllabus] [Webpage] Courses Taught • CLT0771 Career Planning &amp; Self-understanding (SP&#39;25, SP&#39;26)
+• SAI0030 Python Programming &amp; Practice (FA&#39;25, FA&#39;26)
+• ECE9048 Linux Systems &amp; Practice Python Programming (SP&#39;25)
+• CIS0010 C Programming &amp; Practice (SP&#39;26)
+• ECE3088 Embedded Software (FA&#39;25, FA&#39;26)
+• AIC0023 Deep Learning (FA&#39;26)
+• ECE4037 Digital Image Processing (SP&#39;26)
+• GR08322 Computer Vision (FA&#39;26)
+• GR25624 Advacned Machine Learning &amp; Deep Learning (FA&#39;25)">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VCL Lab">
-  <meta name="twitter:description" content="Current Courses (Spring, 2026) # CLT0771 Career Planning and Self-Understanding CIS1010 C Programming and Practice ECE4037 Digital Image Processing ECE4086 Computer Engineering Capstone Design 2 Previous Courses # CLT0771 Career Planning and Self-Understanding (SP&#39;25) ECE9048 Linux Systems and Lab (SP&#39;25) SAI0030 Python Programming and Lab (FA&#39;25) ECE3088 Embedded Software (FA&#39;25) ECE3087 Computer Engineering Capstone Design 1 (FA&#39;25) GR25624 Advanced Machine Learning/Deep Learning (FA&#39;25)">
+  <meta name="twitter:description" content="Courses # CLT0771 Career Planning &amp; Self-understanding Undergraduate Course [Syllabus] [Webpage] SAI0030 Python Programming &amp; Practice Undergraduate Course [Syllabus] [Webpage] ECE9048 Linux Systems &amp; Practice Undergraduate Course [Syllabus] [Webpage] CIS0010 C Programming &amp; Practice Undergraduate Course [Syllabus] [Webpage] ECE3088 Embedded Software Undergraduate Course [Syllabus] [Webpage] AIC0023 Deep Learning Undergraduate Course [Syllabus] [Webpage] ECE4037 Digital Image Processing Undergraduate Course [Syllabus] [Webpage] ECE3087, ECE4084, ECE4085, ECE4086 Capstone Design Undergraduate Course [Syllabus] [Webpage] GR08322 Computer Vision Graduate Course [Syllabus] [Webpage] GR25624 Advanced Machine Learning &amp; Deep Learning Graduate Course [Syllabus] [Webpage] Courses Taught • CLT0771 Career Planning &amp; Self-understanding (SP&#39;25, SP&#39;26)
+• SAI0030 Python Programming &amp; Practice (FA&#39;25, FA&#39;26)
+• ECE9048 Linux Systems &amp; Practice Python Programming (SP&#39;25)
+• CIS0010 C Programming &amp; Practice (SP&#39;26)
+• ECE3088 Embedded Software (FA&#39;25, FA&#39;26)
+• AIC0023 Deep Learning (FA&#39;26)
+• ECE4037 Digital Image Processing (SP&#39;26)
+• GR08322 Computer Vision (FA&#39;26)
+• GR25624 Advacned Machine Learning &amp; Deep Learning (FA&#39;25)">
 
   
   
@@ -519,44 +535,176 @@
   
   <div class="min-w-0 min-h-0 max-w-prose">
     <br/>
+<style>
+.course-section-title {
+  color: rgb(243,123,165);
+  font-weight: bold;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+  row-gap: 4px;
+  margin-top: 15px;
+  justify-items: start;
+}
+
+.course-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  column-gap: 14px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+}
+
+.course-card img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.course-title {
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.course-code {
+  color: #6EE7F9;
+  font-weight: 600;
+}
+
+.course-type {
+  font-size: 12px;
+  margin: 2px 0;
+  color: gray;
+}
+
+.course-links {
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+@media (max-width: 900px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
 
-<h2 class="relative group"><span style="color: rgb(243, 123, 165); font-weight: bold;">Current Courses (Spring, 2026)</span> 
-    <div id="span-stylecolor-rgb243-123-165-font-weight-boldcurrent-courses-spring-2026span" class="anchor"></div>
+<h3 class="relative group"><span class="course-section-title">Courses</span> 
+    <div id="span-classcourse-section-titlecoursesspan" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#span-stylecolor-rgb243-123-165-font-weight-boldcurrent-courses-spring-2026span" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#span-classcourse-section-titlecoursesspan" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-<ul>
-<li>CLT0771 Career Planning and Self-Understanding</li>
-<li>CIS1010 C Programming and Practice</li>
-<li>ECE4037 Digital Image Processing</li>
-<li>ECE4086 Computer Engineering Capstone Design 2</li>
-</ul>
-
-
-<h2 class="relative group"><span style="color: rgb(243, 123, 165); font-weight: bold;">Previous Courses</span> 
-    <div id="span-stylecolor-rgb243-123-165-font-weight-boldprevious-coursesspan" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#span-stylecolor-rgb243-123-165-font-weight-boldprevious-coursesspan" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<ul>
-<li>CLT0771 Career Planning and Self-Understanding (SP'25)</li>
-<li>ECE9048 Linux Systems and Lab (SP'25)</li>
-<li>SAI0030 Python Programming and Lab (FA'25)</li>
-<li>ECE3088 Embedded Software (FA'25)</li>
-<li>ECE3087 Computer Engineering Capstone Design 1 (FA'25)</li>
-<li>GR25624 Advanced Machine Learning/Deep Learning (FA'25)</li>
-</ul>
+</h3>
+<div class="course-grid">
+  <div class="course-card">
+    <img src="/vcl/images/course_career.png" alt="Career Planning">
+    <div>
+      <h4 class="course-title"><span class="course-code">CLT0771</span> Career Planning & Self-understanding</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_python.png" alt="Python Programming">
+    <div>
+      <h4 class="course-title"><span class="course-code">SAI0030</span> Python Programming & Practice</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_linux.png" alt="Linux Systems">
+    <div>
+      <h4 class="course-title"><span class="course-code">ECE9048</span> Linux Systems & Practice</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_cprog.png" alt="C Programming">
+    <div>
+      <h4 class="course-title"><span class="course-code">CIS0010</span> C Programming & Practice</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_embedded.png" alt="Embedded Software">
+    <div>
+      <h4 class="course-title"><span class="course-code">ECE3088</span> Embedded Software</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_dl.png" alt="Deep Learning">
+    <div>
+      <h4 class="course-title"><span class="course-code">AIC0023</span> Deep Learning</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_dip.png" alt="Digital Image Processing">
+    <div>
+      <h4 class="course-title"><span class="course-code">ECE4037</span> Digital Image Processing</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_cd.png" alt="Capstone Design">
+    <div>
+      <h4 class="course-title"><span class="course-code">ECE3087, ECE4084, ECE4085, ECE4086 </span> Capstone Design</h4>
+      <div class="course-type">Undergraduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_cv.png" alt="Capstone Design">
+    <div>
+      <h4 class="course-title"><span class="course-code">GR08322</span> Computer Vision</h4>
+      <div class="course-type">Graduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+  <div class="course-card">
+    <img src="/vcl/images/course_aml.png" alt="Capstone Design">
+    <div>
+      <h4 class="course-title"><span class="course-code">GR25624</span> Advanced Machine Learning & Deep Learning</h4>
+      <div class="course-type">Graduate Course</div>
+      <div class="course-links">[Syllabus] [Webpage]</div>
+    </div>
+  </div>
+</div>
+<br/>
+<details style="margin-top:6px;">
+  <summary style="font-size:12px; color:#9CA3AF; cursor:pointer;">
+    Courses Taught
+  </summary>
+  <div style="font-size:12px; color:#BDBDBD; margin-top:6px; line-height:1.6;">
+    • CLT0771 Career Planning & Self-understanding (SP'25, SP'26)<br>
+    • SAI0030 Python Programming & Practice (FA'25, FA'26)<br>
+    • ECE9048 Linux Systems & Practice  Python Programming (SP'25)<br>    
+    • CIS0010 C Programming & Practice (SP'26)<br>
+    • ECE3088 Embedded Software (FA'25, FA'26)<br>
+    • AIC0023 Deep Learning (FA'26)<br>
+    • ECE4037 Digital Image Processing (SP'26)<br>
+    • GR08322 Computer Vision (FA'26)<br>    
+    • GR25624 Advacned Machine Learning & Deep Learning (FA'25)
+  </div>
+</details>
 
   </div>
 </section>
