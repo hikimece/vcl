@@ -71,22 +71,46 @@
   <meta property="og:url" content="https://hikimece.github.io/vcl/people/">
   <meta property="og:site_name" content="VCL Lab">
   <meta property="og:title" content="VCL Lab">
-  <meta property="og:description" content="Principal Investigator # Hyung-Il Kim, Ph.D. Assistant Professor, School of ECE, Chonnam National University Email: hyungil.kim [at] jnu.ac.kr | Office: Engineering Building #6-717 [Homepage] [Google Scholar] [ORCID] [LinkedIn] [School of ECE] Student Researchers # InHwan Jang 📧 M.S. Student Research Interests
-• Vision-Language Model
+  <meta property="og:description" content="Principal Investigator # Hyung-Il Kim, Ph.D. Assistant Professor, School of ECE, Chonnam National University Email: hyungil.kim [at] jnu.ac.kr | Office: Engineering Building #6-717 [Homepage] [Google Scholar] [ORCID] [LinkedIn] [School of ECE] Student Researchers # InHwan Jang 📧 M.S. Student, Dept. of IECE Research Interests
+• Vision-Language Models
 • Object Detection Hajeong Kim 📧 BS-MS Student, Dept. of EE Research Interests
-• Vision-Language Model
-• OOD Detection">
+• Vision-Language Models
+• OOD Detection Chaehyeon Lee 📧 BS Student, Dept. of CE Research Interests
+• Deep Learning
+• Efficient AI Dajin Kang 📧 BS Student, School of AI Research Interests
+• Deep Learning
+• Multimodal Learning Eunsang Lee 📧 BS Student, School of ECE Research Interests
+• Deep Learning
+• Vision-Language Models Jihun Kim 📧 BS Student, School of ECE Research Interests
+• AI Computing Systems
+• On-Device AI Jiyoung Kim 📧 BS Student, School of ECE Research Interests
+• AI Computing Systems
+• Edge-Cloud AI Sohui Kim 📧 BS Student, School of AI Research Interests
+• Deep Learning
+• Efficient AI">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VCL Lab">
-  <meta name="twitter:description" content="Principal Investigator # Hyung-Il Kim, Ph.D. Assistant Professor, School of ECE, Chonnam National University Email: hyungil.kim [at] jnu.ac.kr | Office: Engineering Building #6-717 [Homepage] [Google Scholar] [ORCID] [LinkedIn] [School of ECE] Student Researchers # InHwan Jang 📧 M.S. Student Research Interests
-• Vision-Language Model
+  <meta name="twitter:description" content="Principal Investigator # Hyung-Il Kim, Ph.D. Assistant Professor, School of ECE, Chonnam National University Email: hyungil.kim [at] jnu.ac.kr | Office: Engineering Building #6-717 [Homepage] [Google Scholar] [ORCID] [LinkedIn] [School of ECE] Student Researchers # InHwan Jang 📧 M.S. Student, Dept. of IECE Research Interests
+• Vision-Language Models
 • Object Detection Hajeong Kim 📧 BS-MS Student, Dept. of EE Research Interests
-• Vision-Language Model
-• OOD Detection">
+• Vision-Language Models
+• OOD Detection Chaehyeon Lee 📧 BS Student, Dept. of CE Research Interests
+• Deep Learning
+• Efficient AI Dajin Kang 📧 BS Student, School of AI Research Interests
+• Deep Learning
+• Multimodal Learning Eunsang Lee 📧 BS Student, School of ECE Research Interests
+• Deep Learning
+• Vision-Language Models Jihun Kim 📧 BS Student, School of ECE Research Interests
+• AI Computing Systems
+• On-Device AI Jiyoung Kim 📧 BS Student, School of ECE Research Interests
+• AI Computing Systems
+• Edge-Cloud AI Sohui Kim 📧 BS Student, School of AI Research Interests
+• Deep Learning
+• Efficient AI">
 
   
   
@@ -540,7 +564,7 @@
 </h2>
 <div style="display:flex; align-items:center; margin-bottom:20px; text-align:left;">
   <!-- 좌측 프로필 사진 -->
-  <img src="/vcl/images/prof_free.png" alt="Hyung-Il Kim"
+  <img src="/vcl/images/prof_rev.png" alt="Hyung-Il Kim"
        style="border-radius:50%; width:110px; height:110px; margin:0 15px 0 0; display:block;">
   <div style="text-align:left;">
     <h4 style="font-size:18px; margin:0;">
@@ -570,83 +594,91 @@
   </div>
 </div>
 <style>
+/* =========================================================
+   Student Researchers
+   ========================================================= */
 
-.student-grid{
-    display:grid;
-    grid-template-columns:repeat(2,minmax(430px,1fr));
-    gap:36px 50px;
-    margin-top:20px;
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 30px;
+    row-gap: 35px;
+    margin-top: 20px;
 }
 
-.student-item{
-    display:flex;
-    align-items:center;
+/* Individual student */
+.student-item {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    column-gap: 22px;
+    align-items: center;
+    min-height: 120px;
 }
 
-.student-photo{
-    width:105px;
-    height:105px;
-    border-radius:50%;
-    object-fit:cover;
-    flex-shrink:0;
-
-    /* 사진과 글 간격 */
-    margin-right:30px;
+/* Student photo */
+.student-photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
 }
 
-.student-info{
-    flex:1;
+/* Student information */
+.student-info {
+    min-width: 0;
+    text-align: left;
 }
 
-.student-name{
-    font-size:18px;
-    font-weight:600;
-
-    margin:0;
-    line-height:1.2;
+/* Name */
+.student-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
 }
 
-.student-position{
-
-    font-size:14px;
-    color:#888;
-
-    margin-top:3px;
-    margin-bottom:10px;
-
-    line-height:1.35;
+/* Email icon */
+.student-email {
+    font-size: 14px;
+    color: #C6CFDC;
+    text-decoration: none;
+    margin-left: 4px;
 }
 
-.student-interest-title{
-
-    font-size:13px;
-    font-weight:600;
-
-    margin-bottom:2px;
+/* Position */
+.student-position {
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+    margin: 4px 0 6px 0;
+    line-height: 1.35;
 }
 
-.student-interest{
-
-    font-size:13px;
-
-    line-height:1.4;
-    margin-bottom:10px;
+/* Research interests */
+.student-interests {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.5;
 }
 
-.student-email{
-
-    font-size:12px;
-    color:#888;
+.student-interests strong {
+    font-weight: 700;
 }
 
-@media(max-width:900px){
+/* =========================================================
+   Mobile
+   ========================================================= */
 
-.student-grid{
-    grid-template-columns:1fr;
+@media (max-width: 900px) {
+
+    .student-grid {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
 }
-
-}
-
 </style>
 
 
@@ -660,75 +692,190 @@
     </span>        
     
 </h2>
-<style>
-.student-grid{
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    column-gap:50px;
-    row-gap:10px;
-    margin-top:15px;
-}
-
-@media (max-width:900px){
-    .student-grid{
-        grid-template-columns:1fr;
-    }
-}
-</style>
 <div class="student-grid">
-<!-- ================= Student 2 ================= -->
-<div style="display:flex; align-items:center; text-align:left;">
-  <img src="/vcl/images/ur_inhwan.png"
-       alt="InHwan Jang"
-       style="border-radius:50%;
-              width:110px;
-              height:110px;
-              margin-right:22px;
-              flex-shrink:0;">
-  <div>
-    <h4 style="font-size:18px; margin:0;">
-      InHwan Jang
-      <span style="font-size:14px; margin-left:0px;">
-        <a href="mailto:znfnkvd456@gmail.com"
-           style="color:#C6CFDC; text-decoration:none; margin-left:4px;">📧</a>
-      </span>      
-    </h4>
-    <h6 style="font-size:13px;margin:1px 0;color:gray;">
-      M.S. Student 
-    </h6>
-    <h6 style="font-size:12px;margin:1px 0;line-height:1.5;">
-      <strong>Research Interests</strong><br>
-      • Vision-Language Model<br>
-      • Object Detection
-    </h6>
-  </div>
+<!-- ======================================================
+     Student 1: InHwan Jang
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/ur_inhwan.png"
+         alt="InHwan Jang">
+    <div class="student-info">
+        <h4 class="student-name">
+            InHwan Jang
+            <a class="student-email"
+               href="mailto:znfnkvd456@gmail.com">📧</a>
+        </h4>
+        <div class="student-position">
+            M.S. Student, Dept. of IECE
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • Vision-Language Models<br>
+            • Object Detection
+        </div>
+    </div>
 </div>
-<!-- ================= Student 3 ================= -->
-<div style="display:flex; align-items:center; text-align:left;">
-  <img src="/vcl/images/ur_hajeong.png"
-       alt="Hajeong Kim"
-       style="border-radius:50%;
-              width:110px;
-              height:110px;
-              margin-right:22px;
-              flex-shrink:0;">
-  <div>
-    <h4 style="font-size:18px; margin:0;">
-      Hajeong Kim
-      <span style="font-size:14px; margin-left:0px;">
-        <a href="mailto:haha7928@naver.com"
-           style="color:#C6CFDC; text-decoration:none; margin-left:4px;">📧</a>
-      </span>      
-    </h4>
-    <h6 style="font-size:13px;margin:1px 0;color:gray;">
-      BS-MS Student, Dept. of EE
-    </h6>
-    <h6 style="font-size:12px;margin:1px 0;line-height:1.5;">
-      <strong>Research Interests</strong><br>
-      • Vision-Language Model<br>
-      • OOD Detection 
-    </h6>
-  </div>
+<!-- ======================================================
+     Student 2: Hajeong Kim
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/ur_hajeong.png"
+         alt="Hajeong Kim">
+    <div class="student-info">
+        <h4 class="student-name">
+            Hajeong Kim
+            <a class="student-email"
+               href="mailto:haha7928@naver.com">📧</a>
+        </h4>
+        <div class="student-position">
+            BS-MS Student, Dept. of EE
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • Vision-Language Models<br>
+            • OOD Detection
+        </div>
+    </div>
+</div>
+<!-- ======================================================
+     Student 3: Chaehyeon Lee
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/candidate.png"
+         alt="Chaehyeon Lee">
+    <div class="student-info">
+        <h4 class="student-name">
+            Chaehyeon Lee
+            <a class="student-email"
+               href="mailto:lch1110501@gmail.com">📧</a>
+        </h4>
+        <div class="student-position">
+            BS Student, Dept. of CE
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • Deep Learning<br>
+            • Efficient AI
+        </div>
+    </div>
+</div>
+<!-- ======================================================
+     Student 4: Dajin Kang
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/candidate.png"
+         alt="Dajin Kang">
+    <div class="student-info">
+        <h4 class="student-name">
+            Dajin Kang
+            <a class="student-email"
+               href="mailto:ddjin0209@gmail.com">📧</a>
+        </h4>
+        <div class="student-position">
+            BS Student, School of AI
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • Deep Learning<br>
+            • Multimodal Learning
+        </div>
+    </div>
+</div>
+<!-- ======================================================
+     Student 5: Eunsang Lee
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/candidate.png"
+         alt="Eunsang Lee">
+    <div class="student-info">
+        <h4 class="student-name">
+            Eunsang Lee
+            <a class="student-email"
+               href="mailto:seungwoo9621@gmail.com">📧</a>
+        </h4>
+        <div class="student-position">
+            BS Student, School of ECE
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • Deep Learning<br>
+            • Vision-Language Models
+        </div>
+    </div>
+</div>
+<!-- ======================================================
+     Student 6: Jihun Kim
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/candidate.png"
+         alt="Jihun Kim">
+    <div class="student-info">
+        <h4 class="student-name">
+            Jihun Kim
+            <a class="student-email"
+               href="mailto:iamaboy1653@naver.com">📧</a>
+        </h4>
+        <div class="student-position">
+            BS Student, School of ECE
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • AI Computing Systems<br>
+            • On-Device AI
+        </div>
+    </div>
+</div>
+<!-- ======================================================
+     Student 7: Jiyoung Kim
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/candidate.png"
+         alt="Jiyoung Kim">
+    <div class="student-info">
+        <h4 class="student-name">
+            Jiyoung Kim
+            <a class="student-email"
+               href="mailto:jhlc0723@jnu.ac.kr">📧</a>
+        </h4>
+        <div class="student-position">
+            BS Student, School of ECE
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • AI Computing Systems<br>
+            • Edge-Cloud AI
+        </div>
+    </div>
+</div>
+<!-- ======================================================
+     Student 8: Sohui Kim
+     ====================================================== -->
+<div class="student-item">
+    <img class="student-photo"
+         src="/vcl/images/candidate.png"
+         alt="Sohui Kim">
+    <div class="student-info">
+        <h4 class="student-name">
+            Sohui Kim
+            <a class="student-email"
+               href="mailto:sohui6619@naver.com">📧</a>
+        </h4>
+        <div class="student-position">
+            BS Student, School of AI
+        </div>
+        <div class="student-interests">
+            <strong>Research Interests</strong><br>
+            • Deep Learning<br>
+            • Efficient AI
+        </div>
+    </div>
 </div>
 </div>
   </div>
